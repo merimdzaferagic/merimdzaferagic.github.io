@@ -23,6 +23,7 @@
   --space-lg: 2rem;
   --space-xl: 3rem;
   --page-gutter: clamp(1.25rem, 2vw, 2rem);
+  --nav-toggle-size: 42px;
 }
 
 * {
@@ -124,8 +125,8 @@ main {
   display: none;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
+  width: var(--nav-toggle-size);
+  height: var(--nav-toggle-size);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.94);
   border: 1px solid rgba(176, 120, 63, 0.25);
@@ -457,8 +458,8 @@ li {
   }
 
   .site-nav {
-    position: absolute;
-    top: calc(100% + var(--space-sm));
+    position: fixed;
+    top: calc(var(--page-gutter) + var(--nav-toggle-size) + var(--space-sm));
     right: var(--page-gutter);
     left: var(--page-gutter);
     margin: 0;
