@@ -265,6 +265,13 @@ svg {
   margin-top: var(--space-lg);
 }
 
+.cards-grid,
+.research-grid,
+.vacancies-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-md);
+}
+
 .card header h3,
 .research-grid article h3,
 .publication-group h3,
@@ -367,6 +374,14 @@ a:focus-visible {
   text-decoration-thickness: 3px;
 }
 
+@media (max-width: 1000px) {
+  .cards-grid,
+  .research-grid,
+  .vacancies-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 900px) {
   .nav-toggle {
     display: inline-flex;
@@ -406,6 +421,13 @@ a:focus-visible {
 
   .hero {
     padding: var(--space-lg);
+  }
+
+  .cards-grid,
+  .research-grid,
+  .vacancies-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
   }
 
   .hero-actions {
