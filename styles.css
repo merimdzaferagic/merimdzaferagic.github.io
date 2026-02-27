@@ -224,6 +224,24 @@ svg {
   margin-top: var(--space-lg);
 }
 
+.hero-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image {
+  background: rgba(43, 53, 83, 0.85);
+  border: 2px dotted var(--accent);
+  border-radius: var(--radius-md);
+  padding: var(--space-sm);
+  box-shadow: var(--shadow-soft);
+  margin-bottom: var(--space-md);
+}
+
+.hero-image img {
+  border-radius: calc(var(--radius-md) - 4px);
+}
+
 .hero-card,
 .card,
 .research-grid article,
