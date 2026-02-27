@@ -103,15 +103,11 @@ svg {
   letter-spacing: 0.35em;
   font-size: 0.75rem;
   color: #d0d7ef;
-  text-decoration: underline;
-  text-decoration-color: currentColor;
-  text-decoration-style: dashed;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 0.35rem;
+  text-decoration: none;
   position: relative;
   display: inline-flex;
   align-items: center;
-  transition: color 0.25s ease, text-decoration-color 0.25s ease;
+  transition: color 0.25s ease;
 }
 
 .site-nav a:hover,
