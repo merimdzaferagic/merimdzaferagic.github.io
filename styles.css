@@ -114,13 +114,14 @@ svg {
 .site-nav a:focus-visible,
 .site-nav a.active {
   color: var(--foreground);
-  text-decoration-color: var(--accent);
 }
 
 .site-nav a.active {
+  text-decoration-line: underline;
   text-decoration-color: var(--accent);
   text-decoration-style: wavy;
   text-decoration-thickness: 2px;
+  text-underline-offset: 0.35rem;
 }
 
 .nav-toggle-checkbox {
