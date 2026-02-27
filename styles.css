@@ -135,7 +135,6 @@ svg {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.04);
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -164,14 +163,14 @@ svg {
 }
 
 .hero {
-  background: rgba(7, 9, 19, 0.9);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: var(--radius-lg);
-  padding: var(--space-xl);
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: var(--space-xl);
-  box-shadow: var(--shadow-soft);
+  box-shadow: none;
 }
 
 .hero-content h1 {
@@ -245,7 +244,7 @@ svg {
 .vacancies-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: var(--space-lg);
+  gap: var(--space-xl);
   margin-top: var(--space-lg);
 }
 
@@ -283,6 +282,10 @@ svg {
 .research-grid article ul,
 .publication-group ul {
   color: var(--muted);
+}
+
+.publication-group {
+  margin-top: var(--space-lg);
 }
 
 .btn {
