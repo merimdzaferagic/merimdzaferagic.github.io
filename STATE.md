@@ -62,8 +62,5 @@ None recorded.
 
 ## Uncertainties and Items Requiring Verification
 
-Owner-confirmed lifecycle: Active (2026-10-27). Earlier references to unknown lifecycle reflect the pre-confirmation document review; other task, deadline, and outcome uncertainties still require verification.
 
 No additional uncertainties recorded.
-
-This snapshot is reconstructed from selected local records, not an independently confirmed live plan. Confirm current detailed operational status, owners, dates, and completion against primary evidence before consequential use.

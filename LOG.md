@@ -1,4 +1,10 @@
 # Activity Log
+## 2026-10-28 — Context-file audit and de-duplication
+
+- Shortened project instructions to retain only local constraints; removed repeated root guidance.
+- Removed repeated caveat/status wording from STATE while preserving its evidence, task details, and section structure.
+- README reviewed; no stable-context deletion warranted.
+
 ## 2026-10-27 17:21 UTC — Owner-confirmed portfolio status and access
 
 - Type: Decision | Task Update | Document Change
